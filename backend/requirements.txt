@@ -1,0 +1,40 @@
+# ── Web Framework ──────────────────────────────────────────────────────────────
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ── ML / LLM ───────────────────────────────────────────────────────────────────
+torch>=2.2.0
+transformers>=4.39.0
+peft>=0.10.0
+accelerate>=0.28.0
+bitsandbytes>=0.43.0     # 4-bit / 8-bit quantisation (optional but useful)
+datasets>=2.18.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+
+# ── NLP ────────────────────────────────────────────────────────────────────────
+nltk>=3.8.1
+
+# ── Translation ────────────────────────────────────────────────────────────────
+deep-translator>=1.11.4  # more maintained than googletrans
+
+# ── Text-to-Speech ─────────────────────────────────────────────────────────────
+gTTS>=2.5.1
+pyttsx3>=2.90
+
+# ── Speech-to-Text ─────────────────────────────────────────────────────────────
+openai-whisper>=20231117
+SpeechRecognition>=3.10.1
+pyaudio>=0.2.14
+
+# ── Data / Utilities ───────────────────────────────────────────────────────────
+kagglehub>=0.3.0
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+tqdm>=4.66.0
+python-dotenv>=1.0.1
+
+# ── Testing ────────────────────────────────────────────────────────────────────
+pytest>=8.1.0
+httpx>=0.27.0

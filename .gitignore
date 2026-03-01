@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+
+# Flask
+instance/
+.webassets-cache
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Model weights (except .gitkeep)
+models/*
+!models/.gitkeep
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Uploads
+uploads/
+*.mp3
+*.wav
+*.webm
+
+# NLTK data
+nltk_data/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Node (for frontend)
+node_modules/
+.npm
+.pnp
+.pnp.js
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Frontend build
+frontend/dist/
+frontend/build/
