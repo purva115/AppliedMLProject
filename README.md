@@ -6,6 +6,8 @@
 
 PharmaLLM is a fine-tuned LLM-based medicine prescriber chatbot built on **TinyLlama-1.1B** + **LoRA**, with multi-modal input/output (text + speech) and multi-language support.
 
+Primary reference paper: [PharmaLLM: A Medicine Prescriber Chatbot Exploiting Open-Source Large Language Models](https://link.springer.com/article/10.1007/s44230-024-00085-z)
+
 | Metric | Target |
 |---|---|
 | Accuracy | 87% |
@@ -35,6 +37,7 @@ pharma-llm/
 │   ├── fine_tune.py
 │   └── evaluate.py
 ├── frontend/         # React + Vite app
+├── report/           # Report generator + final PDF
 └── notebooks/        # Data exploration
 ```
 
@@ -66,6 +69,16 @@ cd pharma-llm/frontend
 npm install
 npm run dev
 ```
+
+### 4. Generate Project Report PDF
+
+```bash
+cd pharma-llm
+python report/generate_report_pdf.py
+```
+
+Output:
+- `report/PharmaLLM_Written_Report.pdf`
 
 ---
 
